@@ -1,0 +1,526 @@
+
+body{
+
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+   line-height: 1.5;
+   width: 100%;
+   margin: auto;
+
+scroll-behavior: smooth;
+    
+}
+
+ul.right{
+    text-transform: uppercase !important;
+    a{
+        padding-left: 30px !important;
+        font-size: 20px !important;
+    }
+}
+
+
+
+.btn{
+    background-color: #333 !important;
+  border-radius: 5% !important;
+}
+
+
+
+ul{
+    margin: auto;
+    text-align: center;
+
+}
+
+li{
+ 
+display: inline;
+padding-left: 20px;
+
+text-align: center;
+
+}
+a.brand-logo{
+    font-family: cursive;
+    padding-left: 3rem !important;
+    font-weight: bolder !important;
+   
+}
+a{color: white;
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+}
+
+
+section.cover{
+ padding: 1rem;
+    scroll-behavior: smooth;
+    background-image: url(./paint.png);
+  
+    height: 100vh;
+ display: grid;
+ align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+ text-align: center;
+    background-attachment: fixed;
+    background-position: center;
+background-size: cover;
+h2{
+    animation: h1;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    position: relative;
+
+    @keyframes h1 {
+        0% { top: -16em;}
+        100%{ top: 0;}
+        
+    }
+}
+
+a{  animation: a;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    position: relative;
+
+    @keyframes a {
+        0% { right: -16em;}
+        100%{ right: 0;}
+        
+    }
+
+}
+
+
+
+
+}
+
+
+
+
+//id anime
+#anime{
+text-transform: uppercase;
+
+    color: red;
+    font-weight: bolder;
+    display: grid;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin: auto;
+    padding: 2rem;
+
+    
+
+h4.one{ opacity: 0;
+    position: relative;
+  animation: one;
+  animation-duration: 6s;
+ 
+  animation-fill-mode: forwards;
+    @keyframes one {
+    0%{left: -10em;}
+    100%{left: 0;
+        opacity: 1;
+       visibility: hidden;
+      
+ 
+    }
+  
+    }
+    
+}
+
+h4.two{ 
+    opacity: 0;
+    position: relative;
+  animation: two;
+  animation-delay: 6s;
+  animation-duration: 6s;
+ 
+  animation-fill-mode: forwards;
+    @keyframes two {
+    0%{right: -10rem;}
+    100%{right: 0;
+        opacity: 1;
+       visibility: hidden;
+ 
+    }
+  
+    }
+    
+}
+
+
+h4.three{ 
+    color: green;
+    opacity: 0;
+    position: relative;
+  animation: three;
+  animation-duration: 6s;
+  animation-delay: 11s;
+  animation-fill-mode: forwards;
+
+    @keyframes three {
+    0%{top: -8rem;
+   
+    }
+    100%{top: 2.2em;
+       visibility: hidden;
+       opacity: 1;
+ 
+    }
+  
+    }
+    
+}
+
+
+
+
+
+}
+
+section.text{
+    h2,h3,h4{
+        text-align: center;
+    }
+
+   
+   margin-top: 1rem !important;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+   
+   
+   
+    display: grid;
+   
+   
+    
+    div{ 
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+        align-content: center;
+        align-items: center;
+        padding: 1rem;
+        &:nth-of-type(4){
+            grid-column: 1/4;
+          h2, h4{
+              margin-bottom: 2rem;
+          }
+        }
+        }
+      
+
+      
+    
+    
+
+  
+}
+
+section.ground{
+   padding: 1rem !important;
+    scroll-behavior: smooth;
+    background-position: center;
+    background-image: url(../img/path.jpg);
+
+    height: 100vh;
+ display: grid;
+ align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+ text-align: center;
+    background-attachment: fixed;
+background-size: cover;
+
+}
+
+section.glasses{
+    
+    padding: 1rem;
+    scroll-behavior: smooth;
+    background-position: center;
+    background-image: url(../img/scrary.png);
+    height: 425px;
+ display: grid;
+ align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+ text-align: center;
+   
+background-size: cover;
+color: white;
+
+}
+
+p{
+    padding: 2rem;
+}
+
+
+section.text1{
+
+    img{
+        width:  100% ;
+    }
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+ text-align: center;
+ grid-gap: 1rem;
+
+}
+section.three{
+ height: 100%;
+h3{
+    font-family: cursive;
+}
+grid-gap: 1rem;
+justify-content: center;
+justify-items: center;
+display: grid;
+padding: 2rem;
+grid-template-columns: 1fr 1fr 1fr ;
+align-content: center;
+
+
+
+
+
+ div{
+   height: 400px;
+    
+    display: grid;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-content: center;
+     height: 550px;
+     border: 3px #ccc solid; 
+     text-align: center;
+     transition: all .5s ease-in;
+     position: relative;
+     .btn{
+         opacity: 0;
+         background: coral !important;
+     }
+   
+     img{
+        width: 70%;
+         display: grid;
+         margin: auto;
+     }
+
+     &:hover{
+         .btn{
+            
+             opacity: 1;
+             transition: all .5s ease-in-out;
+&:hover{
+transform: rotateY(180deg);
+}
+
+         }
+         opacity: .88;
+         color: white;
+         transform: scale(.99);
+         background-color: rgba(0,0,0, 0.7);
+     }
+
+   
+ }
+
+ 
+
+
+}
+.final{
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+  background-image: url(./paint.png);
+  background-position: center;
+}
+
+
+#call{
+ 
+    padding-top: 4rem;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+        display: grid ;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2rem;
+      
+    section{
+        &:nth-of-type(3){
+            grid-column:3 /5 !important;
+        }
+      
+    }
+}
+
+
+//review box
+
+#review-box{
+    
+    margin: auto;
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    background: #333 !important;
+    border-radius: 10%;
+   
+    p{
+       color: white;
+   
+    
+    }
+   
+    
+    h4.name{
+        color: white ;
+        font-weight: bolder;
+    }
+    h4.job{
+        color: coral;
+    }
+    img{
+        width: 40%;
+      
+       border-radius: 50%;
+    }
+    button{
+        margin-left: 1rem;
+       color: lightblue;
+    }
+  
+
+}
+
+    
+
+
+
+
+
+
+footer{
+   
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+   
+    i{
+        padding-left: 10px !important;
+        display: grid;
+        margin: auto;
+        align-items: center;
+
+    }
+}
+
+
+/* media queries */
+@media (max-width:800px){
+
+    section.covr{
+        background-image: url(./images_5.jpg);
+    }
+ 
+a.brand-logo{
+    display: grid !important;
+    margin: auto !important;
+    font-size:1rem !important;
+    text-transform: uppercase !important;
+    font-weight: bolder !important;
+  
+
+}
+    .side-nav{
+        width: 40%;
+
+    }
+
+    section.text{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr) ;
+
+    img{
+        width: 80% !important;
+    }
+
+    div{
+       &:nth-of-type(4){
+            grid-column: 1/1;
+        }
+    }
+        
+
+    }
+    
+section.text1{
+    display: grid;
+grid-template-columns: repeat(1, 1fr);
+padding-top: 5em;
+
+
+}
+
+section.three{
+ 
+
+ div{
+     height: 550px;
+      .btn{
+          opacity: 1;
+        }
+    }
+        
+  
+    display: grid;
+    grid-template-columns: 1fr;
+    img{
+        width: 80%;
+    }
+section.glasses{
+    background-image: url(../img/path.jpg);
+    height: 500px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
